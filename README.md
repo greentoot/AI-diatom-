@@ -1,18 +1,15 @@
 # Author :  Anthony Loiseau / Vincent Lafargue / Noé Cazanova
 
-# Projet pour Notre chère Vincent
-Je crois que cela va servir pour un projet de biologie, j'espère que vincent tu va lire ceci
-
+# Projet 
+This project is intended for a biology project. Vincent, we hope you find this helpful.
 # info
-- pour lancer le fichier, il faut juste utiliser detector.py, cela proposera un input dans lequel vous pourrez y mettre votre image (l'endroit ou elle se trouve) et c'est tout 
-- les models sont déjà entrianer mais vous pouvez très bien agrandir la base de donné et faire votre propre nombre d'Epoch
+- To launch the file, simply use detector.py. It will prompt an input where you can specify the location of your image, and that's it.
+- The models are already trained, but you can expand the database and customize the number of epochs according to your needs.
 
-# exemple : 
-- "cd /lecheminduprojet/vincent"
-- "python detector.py"
-ensuite : 
-- "exemple/test1.jpg"
-et paf le result
+#Usage Example
+  -Navigate to the project directory.
+  -Run python detector.py.
+Voila! Get the result.
 
 # requirements : 
 - os 
@@ -23,12 +20,19 @@ et paf le result
 
 
 # pourcentage d'erreur : 
-sortie de la console pour déterminer si oui ou non c'est un débris ou un diatomée (2 classes : 10 Epoch ) le modèle génèrera une accuracy de : 98% et un loss finale de : ?: 
+Console output for determining whether it's debris or a diatom (2 classes: 10 Epochs): The model achieves an accuracy of 98% and a final loss of ?:.
 
 
+Console output for species identification (166 classes for 100 Epochs): Given the substantial amount of images from the database and the necessary detail for identification, it took over 15 hours of training for the model to achieve an accuracy of 74% and a final loss of 3.83.
 
-sortie de la console pour l'espèce (166 classes pour 100 Epoch) ce qui n'est pas énorme pour la quantité d'image provenant de la base et, le détail nécessaire pour les identifier, mais il a fallut plus de 15h d'apprentissage avant que le modèle générer ai une accuracy égale a : 74% et un loss finale de : 3.83 : 
+For double-sided detection:
+
+Epoch 300/300
+Final loss: 1.4789
+Final accuracy: 85.86%
+Feel free to adjust parameters and further optimize the models for your specific needs. 
 Epoch 100/100
+
 247/247 [==============================] - 103s 417ms/step - loss: 5.1146e-08 - accuracy: 1.0000 - val_loss: 3.8373 - val_accuracy: 0.7436
 
 On double pour le recto verso 
