@@ -1,4 +1,4 @@
-# Author :  Anthony Loiseau / Vincent Lafargue / Noé Cazanova et le reste ( sorry etienne et maya)
+# Author :  Anthony Loiseau / Vincent Lafargue / Noé Cazanova
 
 # Projet pour Notre chère Vincent
 Je crois que cela va servir pour un projet de biologie, j'espère que vincent tu va lire ceci
